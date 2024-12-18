@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Portfólio Jonathan</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+        <script src="menu.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <div class="interface" id="inicio">
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/perfil.jpeg" alt="Jonathan" 
+                        height="150px" width="150px"/></a>
+                </div><!--logo-->
+
+                <nav class="menu-desktop">
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#espec">Especialidades</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#port">Projetos</a></li>
+                    </ul>
+                </nav>
+
+                <div class="btn-abrir" id="btn-abrir">
+                    <i class="bi bi-list"></i>
+                </div><!--btn-abrir-->
+                <div class="menu-mobile" id="menu-mobile">
+                    <div class="btn-fechar">
+                        <i class="bi bi-x"></i>
+                    </div><!--btn-fechar-->
+                <nav>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#espec">Especialidades</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#port">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+                </div><!--menu-mobile-->
+                <div class="overlay-menu" id="overlay-menu"></div>
+            </div><!--interface-->
+        </header>
+
+        <main>
+            <section class="topo-do-site">
+                <div class="interface">
+                    <div class="flex">
+                        <div class="txt-topo-site">
+                            <h1>EM BUSCA DE UMA OPORTUNIDADE<span>.</span></h1>
+                            <p>Estou iniciando na área de programação, buscando aplicar meus conhecimentos para 
+                            criar soluções eficientes e criativas. 
+                            Tenho vontade de aprender e crescer em projetos desafiadores, 
+                            contribuindo com inovação e dedicação</p>
+                            <div class="btn-contato">
+                                <a href="#contato">
+                                    <button>Entre em contato</button>
+                                </a>
+                            </div><!--btn-contato-->
+                        </div><!--txt-topo-site-->
+                        <div class="img-topo-site">
+                            <img
+                                src="images/setup.jpg"
+                                width="320px"
+                                height="250px "
+                            />
+                        </div><!--img-topo-site-->
+                    </div><!--flex-->
+                </div><!--interface-->
+            </section><!--topo-do-site-->
+
+            <section class="especialidades" id="espec">
+                <div class="interface">
+                    <h2 class="titulo">MINHAS <span>ESPECIALIDADES:</span></h2>
+                    <div class="flex">
+                        <div class="especialidades-box">
+                            <i class="bi bi-code-square"></i>
+                            <h3>Frontend</h3>
+                            <p> - HTML.<br>
+                                - CSS.<br>
+                                - JavaScript. </p>
+                        </div><!--especialidades-box-->
+                        <div class="especialidades-box">
+                            <i class="bi bi-diagram-3"></i>
+                            <h3>Analise e Levantamento <Br> de Requisitos</h3>
+                            <p>Elaborar e analisar requisitos de sistemas e projetos.</p>
+                        </div><!--especialidades-box-->
+                        <div class="especialidades-box">
+                            <i class="bi bi-android2"></i>
+                            <h3>Aplicativos</h3>
+                            <p>Aplicativos básicos e avançados</p>
+                        </div><!--especialidades-box-->
+                    </div><!--flex-->
+                </div><!--interface-->
+            </section><!--especialidades-->
+
+            <section class="sobre" id="sobre">
+                <div class="interface">
+                    <div class="flex">
+                        <div class="img-sobre">
+                            <img src="images/eu.jpg" width="392px" height="690px"/> 
+                        </div><!--img-sobre-->
+                        <div class="txt-sobre">
+                            <h2>MUITO PRAZER, EU ME CHAMO
+                                <span>JONATHAN RODRIGUES.</span> </h2>
+                            <p><i class="bi bi-house"></i> Itaquaquecetuba - SP</p>
+                            <p><i class="bi bi-person-vcard"></i> CNH A e B</p>
+                            <p><i class="bi bi-calendar-event"></i> 22/01/2003 (21 Anos)</p>
+                            <p><i class="bi bi-pen"></i>
+                                Ensino Médio Completo | E. E. Clóvis da Silva Alves.<br>
+                                Ensino Superior | Universidade cidade de São Paulo - Unicid.<br>
+                                Analise e desenvolvimento de sistemas | 4° Semestre - Conslusão em Jul/2025.</p>
+                            <div class="btn-social">
+                                <a href="https://www.instagram.com/joncode.io/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                                <a href="https://www.linkedin.com/in/jonathansr22/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                                <a href="https://github.com/jonathansr22" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                            </div><!--btn-social-->
+                        </div><!--txt-sobre-->
+                    </div><!--flex-->
+                </div><!--interface-->
+            </section><!--sobre-->
+
+            <section class="portfolio" id="port">
+                <div class="interface">
+                    <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+                    <div class="flex">
+                        <div class="img-port" style="background-image: url(images/programador.jpg);">
+                            <div class="overlay">Projeto 1</div>
+                        </div>
+                        <div class="img-port" style="background-image: url(images/programador.jpg);">
+                            <div class="overlay">Projeto 2</div>
+                        </div>
+                        <div class="img-port" style="background-image: url(images/programador.jpg);">
+                            <div class="overlay">Projeto 3</div>
+                        </div>
+                    </div><!--flex-->
+                </div><!--interface-->
+            </section><!--porfolio-->
+               
+        </main>
+
+        <footer id="contato">
+            <div class="interface">
+                <div class="line-footer">
+                    <div class="flex">
+                        <div class="logo-footer">
+                            <img src="" alt="">
+                        </div><!--logo-footer-->
+                        <div class="btn-social">
+                            <a href="https://www.instagram.com/joncode.io/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://www.linkedin.com/in/jonathansr22/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://github.com/jonathansr22" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                        </div><!--btn-social-->
+                    </div><!--flex-->
+                </div><!--line-footer-->
+                <div class="line-footer borda">
+                    <p><i class="bi bi-envelope-at-fill"></i> <a href="mailto:jonathansantos8b@gmail.com">jonathansantos8b@gmail.com</a></p>
+                </div><!--line-footer-->
+            </div><!--interface-->
+        </footer>
+    </body>
+</html>
