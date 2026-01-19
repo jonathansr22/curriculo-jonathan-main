@@ -11,6 +11,26 @@
 </head>
 
 <body>
+    <div id="login-overlay" class="login-overlay">
+    <div class="card login-card">
+        <h2 style="font-family: 'Playfair Display', serif; color: var(--primary-gold);">Acesso Restrito</h2>
+        <p>Vênus Joias - Painel Administrativo</p>
+        <div class="campo">
+            <input type="email" id="login-email" placeholder="E-mail">
+        </div>
+        <div class="campo" style="margin-top: 10px;">
+            <input type="password" id="login-senha" placeholder="Senha">
+        </div>
+        <button class="btn-adicionar" id="btnLogar">Entrar</button>
+        <p id="login-erro" style="color: red; font-size: 0.8rem; margin-top: 10px; display: none;">Acesso negado.</p>
+    </div>
+</div>
+
+<header>
+    <h1>Vênus Joias</h1>
+    <button id="btnSair" class="btn-tool" style="display:none; margin-top: 10px;">Sair do Painel</button>
+</header>
+
     <header>
         <div class="interface" id="inicio">
             <div class="logo">
@@ -107,13 +127,12 @@
                         <h2>MUITO PRAZER, EU ME CHAMO
                             <span>JONATHAN RODRIGUES.</span>
                         </h2>
-                        <p><i class="bi bi-house"></i> Itaquaquecetuba - SP</p>
+                        <p><i class="bi bi-house"></i> Santa Cecília | Centro - SP</p>
                         <p><i class="bi bi-person-vcard"></i> CNH A e B</p>
                         <p><i class="bi bi-calendar-event"></i> 22/01/2003 (22 Anos)</p>
                         <p><i class="bi bi-pen"></i>
-                            Ensino Médio Completo | E. E. Clóvis da Silva Alves.<br>
                             Ensino Superior | Universidade cidade de São Paulo - Unicid.<br>
-                            Analise e desenvolvimento de sistemas | 4° Semestre - Conclusão em Jul/2025.</p>
+                            Analise e desenvolvimento de sistemas | Concluído</p>
                         <div class="btn-social">
                             <a href="https://www.instagram.com/_odevjonathan/" target="_blank"><button><i
                                         class="bi bi-instagram"></i></button></a>
@@ -172,6 +191,7 @@
             </div><!--line-footer-->
         </div><!--interface-->
     </footer>
+    
 </body>
 
 </html>
